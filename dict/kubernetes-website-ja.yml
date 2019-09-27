@@ -1,0 +1,26 @@
+version: 1
+rules:
+  - expected: コントローラー
+    patterns:
+      - /コントローラ(?!ー)/
+    specs:
+      - from: コントローラ
+        to:   コントローラー
+  - expected: クラスター
+    patterns:
+      - /クラスタ(?!ー)/
+    specs:
+      - from: クラスタ
+        to:   クラスター
+  - expected: コンテナ
+    pattern:  コンテナー
+  - expected: ディレクトリ
+    pattern:  ディレクトリー
+  - expected: バイナリ
+    pattern:  バイナリー
+  - expected: オペレーター
+    patterns:
+      - /オペレータ(?!ー)/
+    specs:
+      - from: オペレータ
+        to:   オペレーター

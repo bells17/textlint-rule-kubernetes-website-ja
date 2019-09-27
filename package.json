@@ -1,0 +1,45 @@
+{
+  "name": "textlint-rule-kubernetes-website-ja",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bells17/textlint-rule-kubernetes-website-ja.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bells17/textlint-rule-kubernetes-website-ja/issues"
+  },
+  "author": "bells17",
+  "email": "bells171@gmail.com",
+  "version": "0.1.1",
+  "description": "kubernetesドキュメントの日本語訳のtextlintルール",
+  "main": "lib/textlint-rule-kubernetes-website-ja.js",
+  "files": [
+    "lib",
+    "dict",
+    "build"
+  ],
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "browserify lib/textlint-rule-kubernetes-website-ja.js -o build/textlint-rule-kubernetes-website-ja.js",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "textlint",
+    "dictionary",
+    "config",
+    "kubernetes"
+  ],
+  "dependencies": {
+    "brfs": "2.0.2",
+    "textlint-rule-prh": "5.2.1"
+  },
+  "devDependencies": {
+    "browserify": "16.5.0"
+  }
+}
