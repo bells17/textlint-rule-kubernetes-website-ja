@@ -24,3 +24,13 @@ rules:
     specs:
       - from: オペレータ
         to:   オペレーター
+  - expected: プロキシ
+    pattern:  プロキシー
+  - expected: 動的プロビジョニング
+    pattern:  ダイナミックプロビジョニング
+  - expected: 静的プロビジョニング
+    pattern:  スタティックプロビジョニング
+  - expected: アグリゲーションレイヤー
+    patterns:
+      - Aggregationレイヤー
+      - 集約レイヤー
