@@ -34,3 +34,7 @@ rules:
     patterns:
       - Aggregationレイヤー
       - 集約レイヤー
+  - expected: リポジトリ
+    pattern:  リポジトリー
+  - expected: Pod
+    pattern:  ポッド
