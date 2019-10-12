@@ -9,7 +9,7 @@
   },
   "author": "bells17",
   "email": "bells171@gmail.com",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "kubernetesドキュメントの日本語訳のtextlintルール",
   "main": "lib/textlint-rule-kubernetes-website-ja.js",
   "files": [
